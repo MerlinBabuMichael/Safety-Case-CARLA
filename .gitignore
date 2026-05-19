@@ -1,0 +1,16 @@
+# Exclude data folder containing raw CARLA images
+data/
+*.zip
+*.tar.gz
+
+# Exclude PyTorch Deep Learning weights
+*.pt
+*.pth
+models/
+checkpoints/
+
+# Exclude system and environment caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
