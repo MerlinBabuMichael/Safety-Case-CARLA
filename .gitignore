@@ -1,7 +1,9 @@
 # Exclude data folder containing raw CARLA images
-data/
-*.zip
-*.tar.gz
+carla_dataset/
+
+drive/
+
+sampledata/
 
 # Exclude PyTorch Deep Learning weights
 *.pt
